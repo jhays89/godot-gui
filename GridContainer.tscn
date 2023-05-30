@@ -1,0 +1,36 @@
+[gd_scene format=2]
+
+[node name="PanelContainer" type="PanelContainer"]
+margin_right = 278.0
+margin_bottom = 167.0
+
+[node name="GridContainer" type="GridContainer" parent="."]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 271.0
+margin_bottom = 160.0
+columns = 2
+
+[node name="Label" type="Label" parent="GridContainer"]
+margin_top = 5.0
+margin_right = 70.0
+margin_bottom = 19.0
+text = "First Name"
+
+[node name="LineEdit" type="LineEdit" parent="GridContainer"]
+margin_left = 74.0
+margin_right = 264.0
+margin_bottom = 24.0
+size_flags_horizontal = 3
+
+[node name="Label2" type="Label" parent="GridContainer"]
+margin_top = 33.0
+margin_right = 70.0
+margin_bottom = 47.0
+text = "Last Name"
+
+[node name="LineEdit2" type="LineEdit" parent="GridContainer"]
+margin_left = 74.0
+margin_top = 28.0
+margin_right = 264.0
+margin_bottom = 52.0

@@ -1,0 +1,47 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://images/pressed.png" type="Texture" id=1]
+[ext_resource path="res://icon.png" type="Texture" id=2]
+[ext_resource path="res://images/disabled.png" type="Texture" id=3]
+[ext_resource path="res://images/hover.png" type="Texture" id=4]
+
+[node name="Control" type="Control"]
+margin_right = 40.0
+margin_bottom = 40.0
+
+[node name="Button" type="Button" parent="."]
+margin_left = 466.0
+margin_top = 49.0
+margin_right = 564.0
+margin_bottom = 69.0
+text = "I am a button"
+
+[node name="Label" type="Label" parent="."]
+margin_left = 476.0
+margin_top = 86.0
+margin_right = 551.0
+margin_bottom = 100.0
+text = "First Name"
+
+[node name="TextureButton" type="TextureButton" parent="."]
+margin_left = 493.0
+margin_top = 128.0
+margin_right = 533.0
+margin_bottom = 168.0
+texture_normal = ExtResource( 2 )
+texture_pressed = ExtResource( 1 )
+texture_hover = ExtResource( 4 )
+texture_disabled = ExtResource( 3 )
+
+[node name="LineEdit" type="LineEdit" parent="."]
+margin_left = 573.0
+margin_top = 82.0
+margin_right = 693.0
+margin_bottom = 106.0
+
+[node name="HSlider" type="HSlider" parent="."]
+margin_left = 437.0
+margin_top = 221.0
+margin_right = 585.0
+margin_bottom = 237.0
+step = 5.0
